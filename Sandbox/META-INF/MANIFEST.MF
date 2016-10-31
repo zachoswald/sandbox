@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RestAPI
+Bundle-SymbolicName: Sandbox
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: RestAPI.jar,
+ jars/jaxrs-ri/api/javax.ws.rs-api-2.0.1.jar,
+ jars/jaxrs-ri/lib/jersey-client.jar
+Export-Package: com.zach.sandbox
